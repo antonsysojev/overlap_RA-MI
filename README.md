@@ -1,8 +1,8 @@
-# GENETIC OVERLAP BETWEEN RHEUMATOID ARTHRITS AND MYOCARDIAL INFARCTION
+# Genetic overlap between Rheumatoid Arthritis and Myocardial Infarction
 
 This repository hosts scripts and documents, all related to the study described in [Sysojev et al. (2024)](https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.42918). Worth noting, is that it does not contain any type of raw data used within the project, whatsoever.
 
-# Scripts
+# 1. SCRIPTS
 
 The project is divided into four primary scripts, with supporting `misc` scripts underlying them. Script `1*.sh` performs the pre-processing of the fully imputed genotype data by performing quality control in each of the underlying cohorts and merging of the post-QC data into a singular set of genotype data. This data is then taken forward into script `2*.sh`, wherein the genome-wide association analysis is conducted, and GWAS summary statistic data is obtained. In script `3*.sh`, the GWAS data is combined with publicly available GWAS data on phenotypes of intrest, in which genome-wide genetic correlation is estimated through LDSC.
 
